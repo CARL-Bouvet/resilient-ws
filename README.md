@@ -294,3 +294,12 @@ cancels a reconnect already scheduled.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Author
+
+Carl Bouvet — I run the market-data service this was extracted from. The full diagnosis, including
+why ping/pong does not catch this failure, is written up
+[here](https://dev.to/carlbouvet/my-websocket-was-open-the-whole-time-it-just-stopped-sending-anything-140e).
+
+Available for freelance work: ingestion pipelines, MongoDB, self-hosted infrastructure.
+[carlbouvetdev@gmail.com](mailto:carlbouvetdev@gmail.com) · [github.com/CARL-Bouvet](https://github.com/CARL-Bouvet)
