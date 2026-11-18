@@ -4,7 +4,7 @@
   "description": "A dependency-free WebSocket wrapper that treats incoming data as the proof of life, so a socket that stays open but goes silent is detected and reconnected.",
   "type": "module",
   "license": "MIT",
-  "author": "Carl Bouvet <carlbouvetdev@gmail.com>",
+  "author": "Carl Bouvet <carlbouvet.contact@gmail.com>",
   "scripts": {
     "test": "vitest run"
   },

@@ -263,8 +263,8 @@ to your own process, and the cheap checks separate them in minutes.
 
 ## Where this comes from
 
-I extracted this from a private market-data service: seven ingestion services, thirteen exchange
-WebSocket connectors and — once I went and read all of them, instead of the two I remembered —
+I extracted this from a private market-data service: seven ingestion services, WebSocket
+connectors to about ten exchanges, spot and futures, and — once I went and read all of them, instead of the two I remembered —
 **three distinct resilience designs**, not one.
 
 One design keeps liveness inside the connection's own closure and treats any accepted payload as
@@ -302,4 +302,4 @@ why ping/pong does not catch this failure, is written up
 [here](https://dev.to/carlbouvet/my-websocket-was-open-the-whole-time-it-just-stopped-sending-anything-140e).
 
 Available for freelance work: ingestion pipelines, MongoDB, self-hosted infrastructure.
-[carlbouvetdev@gmail.com](mailto:carlbouvetdev@gmail.com) · [github.com/CARL-Bouvet](https://github.com/CARL-Bouvet)
+[carlbouvet.contact@gmail.com](mailto:carlbouvet.contact@gmail.com) · [github.com/CARL-Bouvet](https://github.com/CARL-Bouvet)
